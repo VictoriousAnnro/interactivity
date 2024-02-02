@@ -7,7 +7,7 @@ from torch import nn
 from collections import OrderedDict
 from torchvision.models import resnet
 #from torchvision.models.alexnet import model_urls as alexnet_model_urls
-from torchvision.models.alexnet import Alexnet as alexnet_model_urls
+from torchvision.models.alexnet import AlexNet as alexnet_model_urls
 
 class CustomResNet(nn.Module):
     '''
